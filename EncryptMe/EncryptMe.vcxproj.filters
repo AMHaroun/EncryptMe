@@ -1,0 +1,108 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Encryption Functions">
+      <UniqueIdentifier>{c33bd92c-3915-4adc-9fd5-5f55821a20d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Decryption Functions">
+      <UniqueIdentifier>{c0ba80c4-299b-4b1e-ae54-bf961f7d65e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Encryption Headers">
+      <UniqueIdentifier>{135a6351-a974-4135-8239-0718742f7dc8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Decryption Headers">
+      <UniqueIdentifier>{d5a1503b-849b-442b-8304-a11a18d5089b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="EncryptFileAES.cpp">
+      <Filter>Source Files\Encryption Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="EncryptAES.cpp">
+      <Filter>Source Files\Encryption Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateKeyAES.cpp">
+      <Filter>Source Files\Encryption Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="GenerateIVAES.cpp">
+      <Filter>Source Files\Encryption Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="DecryptFileAES.cpp">
+      <Filter>Source Files\Decryption Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="DecryptAES.cpp">
+      <Filter>Source Files\Decryption Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="FindKey.cpp">
+      <Filter>Source Files\Decryption Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="FindIV.cpp">
+      <Filter>Source Files\Decryption Functions</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64Encode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Base64Decode.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="IsContextMenuEntryPresent.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AddContextMenuEntry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="EncryptFileAES.hpp">
+      <Filter>Header Files\Encryption Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="EncryptAES.hpp">
+      <Filter>Header Files\Encryption Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateKeyAES.hpp">
+      <Filter>Header Files\Encryption Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="GenerateIVAES.hpp">
+      <Filter>Header Files\Encryption Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DecryptFileAES.hpp">
+      <Filter>Header Files\Decryption Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="DecryptAES.hpp">
+      <Filter>Header Files\Decryption Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FindIV.hpp">
+      <Filter>Header Files\Decryption Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="FindKey.hpp">
+      <Filter>Header Files\Decryption Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64Encode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Base64Decode.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="IsContextMenuEntryPresent.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AddContextMenuEntry.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
