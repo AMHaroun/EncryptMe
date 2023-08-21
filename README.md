@@ -1,6 +1,6 @@
 # Encrypt Me - Windows Context Menu Encryption App
 
-![Encrypt Me Logo](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.vecteezy.com%2Ffree-vector%2Flock&psig=AOvVaw0uMAILCfeRp9qlwZahh5S4&ust=1692235052338000&source=images&cd=vfe&opi=89978449&ved=0CA8QjRxqFwoTCMjWwfuA4IADFQAAAAAdAAAAABBI)
+![Capture](https://github.com/AMHaroun/EncryptMe/blob/master/Capture.PNG)
 
 Encrypt Me is a user-friendly encryption application for Windows that empowers you to secure your sensitive text files effortlessly. With a seamless integration into the Windows context menu, Encrypt Me provides a convenient way to encrypt your text files right from the file explorer. Whether it's personal notes, confidential documents, or any other sensitive information, Encrypt Me ensures that your data remains private and secure.
 
@@ -49,5 +49,4 @@ This project is licensed under the [MIT License](LICENSE).
 
 Secure your sensitive text files with ease using Encrypt Me's powerful encryption capabilities. Download now and take control of your data privacy!
 
-![Capture](https://github.com/AMHaroun/EncryptMe/assets/29342600/2ca89976-1d83-4e12-8c4e-403358949815)
 
